@@ -75,6 +75,7 @@ require (
 	github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal v0.77.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza v0.77.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/processor/attributesprocessor v0.77.0
+	github.com/open-telemetry/opentelemetry-collector-contrib/processor/bmaasprocessor v0.77.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/processor/cumulativetodeltaprocessor v0.77.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/processor/datadogprocessor v0.77.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/processor/deltatorateprocessor v0.77.0
@@ -671,6 +672,8 @@ require (
 	sigs.k8s.io/yaml v1.3.0 // indirect
 	skywalking.apache.org/repo/goapi v0.0.0-20220121092418-9c455d0dda3f // indirect
 )
+
+replace github.com/open-telemetry/opentelemetry-collector-contrib/processor/bmaasprocessor => ../../processor/bmaasprocessor
 
 replace github.com/open-telemetry/opentelemetry-collector-contrib/extension/storage => ../../extension/storage
 
